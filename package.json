@@ -1,0 +1,12 @@
+{
+  "name"          : "pid",
+  "description"   : "Creates a pid file.",
+  "url"           : "http://github.com/coolaj86/node-pid/",
+  "keywords"      : ["util", "pid"],
+  "author"        : "AJ ONeal <coolaj86@gmail.com>",
+  "contributors"  : [],
+  "dependencies"  : [],
+  "lib"           : "lib",
+  "main"          : "./lib/pid",
+  "version"       : "1.0.0"
+}
