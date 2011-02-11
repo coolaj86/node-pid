@@ -14,3 +14,8 @@ Usage
     pider('./node-pid'); // ./node-pid
 
     pider('/var/run/node-pid.pid'); // /var/run/node-pid.pid -- if you have permissions
+
+Notes
+
+  * Fails silently and without callback if you don't have write permissions to `path`
+  * adds `process.on('exit', fn)` event to unlink the pid file on quit
