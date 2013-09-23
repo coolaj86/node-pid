@@ -8,5 +8,5 @@
   "dependencies"  : [],
   "lib"           : "lib",
   "main"          : "./lib/pid",
-  "version"       : "1.0.0"
+  "version"       : "2.0.1"
 }
